@@ -15,15 +15,13 @@ int  pos_element();
 };
 
 void dbms::all_srt_technique(){
-void linear_short();
-void 
-
-
-
-
-
+void linear_sort();
+void bubble_sort();
+void selection_sort();
+void insertion_sort();
 
 }
+
 void dbms::get(){
     int n=10;
 x:  if (n<1001&&n>0){ // checking boundary of array size
